@@ -1,0 +1,20 @@
+{
+  "name": "j-zyki-wysokiego-poziomu-w-aplikacjach-internetowych-lab",
+  "version": "1.0.0",
+  "description": "Michał Mierzwa 21273",
+  "homepage": "https://github.com/mmierzwa2002/J-zyki-wysokiego-poziomu-w-aplikacjach-internetowych-lab#readme",
+  "bugs": {
+    "url": "https://github.com/mmierzwa2002/J-zyki-wysokiego-poziomu-w-aplikacjach-internetowych-lab/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmierzwa2002/J-zyki-wysokiego-poziomu-w-aplikacjach-internetowych-lab.git"
+  },
+  "license": "ISC",
+  "author": "Michal Mierzwa 21273",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
