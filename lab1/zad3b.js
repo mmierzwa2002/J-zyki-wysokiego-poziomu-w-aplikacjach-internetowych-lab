@@ -13,8 +13,13 @@ const server = http.createServer((request, response) => {
 });
 
 server.listen(port, hostname, () => {
-    util.log(v8.getHeapStatistics());
+    // FIX: Changed util.log to console.log
+    console.log(v8.getHeapStatistics()); 
+    
     console.log(path.basename(__filename));
-    util.log(path.join(__dirname, 'uploads', 'images'));
+
+    // FIX: Changed util.log to console.log
+    console.log(path.join(__dirname, 'uploads', 'images')); 
+    
     console.log(`Server running at http://${hostname}:${port}/`);
 });
