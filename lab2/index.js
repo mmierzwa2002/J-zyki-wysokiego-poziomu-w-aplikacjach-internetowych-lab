@@ -11,12 +11,8 @@ getTemplate(JSON.parse(data.toString()), res);
 }
 function getTemplate(titles, res) {
  fs.readFile('./template.html', function (err, data) {
- if (err) {
- hadError(err, res);
- }
- else {
+ if (err) return hadError(err, res);
  formatHtml(titles, data.toString(), res);
- }
  });
 }
 function formatHtml(titles, tmpl, res) {
