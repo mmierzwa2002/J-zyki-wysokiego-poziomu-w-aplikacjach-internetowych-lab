@@ -13,7 +13,7 @@ function runWorker(limit) {
 
 async function main() {
   console.log("Uruchamiam 4 workerów równolegle...");
-  console.time("Całkowity czas");
+  console.time("Całkowity czas: ");
   const limitValue = 5e7;
 
   try {
