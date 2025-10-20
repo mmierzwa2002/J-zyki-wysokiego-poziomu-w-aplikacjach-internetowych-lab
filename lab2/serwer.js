@@ -19,7 +19,7 @@ Watcher.prototype.watch = function () {
 };
 Watcher.prototype.start = function () {
   const watcher = this;
-  fs.watch(watchDir, function (eventType, fileName) {
+  fs.watchFile(watchDir, function () {
     watcher.watch();
   });
 };
