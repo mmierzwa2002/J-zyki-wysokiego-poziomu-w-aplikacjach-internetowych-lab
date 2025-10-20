@@ -11,3 +11,4 @@ console.log(currency1.USDToZloty(50));
 // Test wersji obiektowej
 console.log('1000 Polskich Złotych odpowiada następującej ilości Rupli Indyjskich:');
 console.log(currency2.zlotyToINR(1000));
+
