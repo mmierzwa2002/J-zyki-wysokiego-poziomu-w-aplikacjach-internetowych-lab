@@ -1,0 +1,16 @@
+{
+  "name": "lab2",
+  "version": "1.0.0",
+  "description": "lab2",
+  "repository": {
+    "type": "git",
+    "url": "J-zyki-wysokiego-poziomu-w-aplikacjach-internetowych-lab"
+  },
+  "license": "ISC",
+  "author": "Michal Mierzwa 21273",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
