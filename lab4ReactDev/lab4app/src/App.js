@@ -4,8 +4,10 @@ import HelloWithProps from "./Hello";
 import Counter from "./Counter";
 import InputTracker from "./InputTracker";
 import LoginStatus from "./LoginStatus";
+import TodoList from "./TodoList";
 
 function App() {
+  const myTasks = ["Dokończ laboratorium", "Zjedz obiad", "Idź spać"];
   return (
     <div>
       <HelloWithProps name="Anna" />
@@ -14,6 +16,7 @@ function App() {
       <Counter />
       <InputTracker />
       <LoginStatus />
+      <TodoList todos={myTasks} />
     </div>
   );
 }
