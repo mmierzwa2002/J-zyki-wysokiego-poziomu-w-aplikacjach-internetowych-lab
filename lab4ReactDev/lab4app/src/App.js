@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import HelloWithProps from "./Hello";
 import Counter from "./Counter";
+import InputTracker from "./InputTracker";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <HelloWithProps name="Bartek" />
       <HelloWithProps name="Celina" />
       <Counter></Counter>
+      <InputTracker />
     </div>
   );
 }
