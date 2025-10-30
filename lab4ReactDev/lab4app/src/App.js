@@ -3,6 +3,7 @@ import "./App.css";
 import HelloWithProps from "./Hello";
 import Counter from "./Counter";
 import InputTracker from "./InputTracker";
+import LoginStatus from "./LoginStatus";
 
 function App() {
   return (
@@ -10,8 +11,9 @@ function App() {
       <HelloWithProps name="Anna" />
       <HelloWithProps name="Bartek" />
       <HelloWithProps name="Celina" />
-      <Counter></Counter>
+      <Counter />
       <InputTracker />
+      <LoginStatus />
     </div>
   );
 }
