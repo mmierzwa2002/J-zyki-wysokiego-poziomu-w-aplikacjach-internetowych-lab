@@ -5,6 +5,7 @@ import Counter from "./Counter";
 import InputTracker from "./InputTracker";
 import LoginStatus from "./LoginStatus";
 import TodoList from "./TodoList";
+import LoginForm from "./LoginForm";
 
 function App() {
   const myTasks = ["Dokończ laboratorium", "Zjedz obiad", "Idź spać"];
@@ -16,6 +17,7 @@ function App() {
       <Counter />
       <InputTracker />
       <LoginStatus />
+      <LoginForm />
       <TodoList todos={myTasks} />
     </div>
   );
