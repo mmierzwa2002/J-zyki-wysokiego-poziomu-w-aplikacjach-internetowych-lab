@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 
+import UserList from "./UserList";
 import ToggleDetails from "./ToggleDetails";
 import ScoreDisplay from "./ScoreDisplay";
 import TaskList from "./TaskList";
@@ -19,6 +20,8 @@ function App() {
 
         <h2>Ćwiczenie 3: TaskList</h2>
         <TaskList />
+        <h2>Ćwiczenie 4: UserList</h2>
+        <UserList />
       </header>
     </div>
   );
