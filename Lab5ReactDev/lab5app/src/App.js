@@ -5,6 +5,7 @@ import UserList from "./UserList";
 import ToggleDetails from "./ToggleDetails";
 import ScoreDisplay from "./ScoreDisplay";
 import TaskList from "./TaskList";
+import TimerCounter from "./TimerCounter";
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
         <TaskList />
         <h2>Ćwiczenie 4: UserList</h2>
         <UserList />
+        <h2>Ćwiczenie 5: TimerCounter</h2>
+        <TimerCounter />
       </header>
     </div>
   );
