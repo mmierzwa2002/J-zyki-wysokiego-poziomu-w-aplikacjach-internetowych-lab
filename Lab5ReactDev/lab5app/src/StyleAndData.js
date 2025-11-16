@@ -39,7 +39,7 @@ function StyleAndData() {
         onMouseOver={handleMouseOver}
         onMouseOut={handleMouseOut}
       >
-        Name: {state.name}, Ilość: {state.count}
+        Nazwa: {state.name}, Ilość: {state.count}
       </h4>
 
       <p>{state.mouseStatus}</p>
