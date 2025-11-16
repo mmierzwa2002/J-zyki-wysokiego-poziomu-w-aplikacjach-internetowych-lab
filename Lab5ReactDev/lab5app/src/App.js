@@ -6,6 +6,8 @@ import ToggleDetails from "./ToggleDetails";
 import ScoreDisplay from "./ScoreDisplay";
 import TaskList from "./TaskList";
 import TimerCounter from "./TimerCounter";
+import StyleAndData from "./StyleAndData";
+import FileUploader from "./FileUploader";
 
 function App() {
   return (
@@ -25,6 +27,9 @@ function App() {
         <UserList />
         <h2>Ćwiczenie 5: TimerCounter</h2>
         <TimerCounter />
+        <h2>Zadanie 3: Komponenty Funkcyjne</h2>
+        <StyleAndData />
+        <FileUploader />
       </header>
     </div>
   );
