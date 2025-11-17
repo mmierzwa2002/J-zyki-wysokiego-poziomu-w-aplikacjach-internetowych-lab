@@ -1,22 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+
+import ClickCounter from "./ClickCounter";
+import PrimeCalculator from "./PrimeCalculator";
+import FormReducer from "./FormReducer";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h2>Ćwiczenie 1: ClickCounter</h2>
+        <ClickCounter />
+        <h2>Ćwiczenie 2: PrimeCalculator</h2>
+        <PrimeCalculator />
+        <h2>Ćwiczenie 3: FormReducer</h2>
+        <FormReducer />
       </header>
     </div>
   );
