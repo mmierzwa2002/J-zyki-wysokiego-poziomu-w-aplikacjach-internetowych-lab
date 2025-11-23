@@ -1,6 +1,6 @@
 import { useLayoutEffect, useRef, useState } from "react";
 export default function LayoutEffectExample() {
-  const boxRef = useRef < HTMLDivElement > null;
+  const boxRef = useRef<HTMLDivElement>(null);
   const [height, setHeight] = useState(0);
   useLayoutEffect(() => {
     if (boxRef.current) {

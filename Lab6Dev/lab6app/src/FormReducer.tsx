@@ -1,6 +1,6 @@
 import { useReducer } from "react";
 const initialState = { name: "", email: "" };
-function reducer(state, action) {
+function reducer(state: typeof initialState, action: any) {
   switch (action.type) {
     case "SET_NAME":
       return { ...state, name: action.payload };
